@@ -1,0 +1,20 @@
+<html>
+<head lang="en">
+<title>calculator</title>
+<meta charset="UTF-8">
+<script src="js/angular.min.js"></script>
+</head>
+<body ng-app=" ">
+<center><h3>CALCULATOR</h3></center>
+a:<input type="number" ng-model="a"><br><br>
+b:<input type="number" ng-model="b"><br><br>
+<input type="button" ng-click="Result=a+b" value="+">
+
+<input type="button" ng-click="Result=a-b" value="-">
+<input type="button" ng-click="Result=a*b" value="*">
+<input type="button" ng-click="Result=a/b" value="/">
+<br>
+Result: {{Result}}
+
+</body>
+</html>
